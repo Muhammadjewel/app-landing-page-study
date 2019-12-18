@@ -7,6 +7,52 @@ html {
 	box-sizing: inherit;
 }
 body {
+	font-family: "Arial", sans-serif;
 	padding: 0;
 	margin: 0;
 }
+.container{
+	width: 1170px;
+	margin: 50px auto;
+}
+.site-header__links{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.site-header__logo-link{
+	display: flex;
+	text-decoration: none;
+}
+.site-header__logo-title{
+	margin: 0;
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+}
+.color-title{
+	color: #0f0d70;
+}
+.site-header__links-links{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.site-header__links-link{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 18px;
+	margin-left: 30px;
+}
+.color-link{
+	display: inline-flex;
+	padding: 15px 30px;
+	background-color: blue;
+	margin-left: 50px;
+	border-radius: 50px;
+	color: #fff;
+}
+
