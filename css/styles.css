@@ -10,3 +10,20 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.container{
+	max-width: 1170px;
+	display: flex;
+	margin: 50px auto;
+}
+.container__texts{
+	width: 50%;
+	margin-left: auto;
+	padding: 100px 80px 100px 80px;
+}
+.container__button{
+	padding: 8px 20px;
+	border: none;
+	color: #fff;
+	background-color: blue;
+	border-radius: 30px;
+}
