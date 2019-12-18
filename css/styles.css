@@ -9,4 +9,89 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	font-family: "Arial", sans-serif;
+}
+.wrapper-container {
+	background-image: url("../img/wave.svg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.container {
+	width: 1170px;
+	margin: 100px auto;
+	display: flex;
+	align-items: center;
+	background-image: url("../img/wave.svg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.adv-part {
+	width: 500px;
+	margin-left: 100px;
+}
+.app-version {
+	position: relative;
+	padding: 10px 50px;
+	border-radius: 15px;
+	background-color: rgba(100, 250, 60, 0.8);
+}
+.app-version::before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 10%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-image: url("../img/11-512.png");
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.ad-part__header {
+	font-size: 40px;
+}
+.adv-part__text {
+	margin-bottom: 50px;
+	font-size: 18px;
+	color: #777;
+}
+.adv-part__link {
+	text-decoration: none;
+	padding: 20px 30px;
+	border-radius: 35px;
+	font-size: 18px;
+	border: 1px solid transparent;
+}
+.link-free {
+	background-color: blue;
+	color: #fff;
+}
+.bg-image {
+	width: 670px;
+	position: relative;
+	background-image: url("../img/present-time.png");
+	background-position: top 20px left 75px;
+	background-repeat: no-repeat;
+	background-size: 260px 300px;
+}
+.bg-image__text-box {
+	width: 250px;
+	position: absolute;
+	bottom: 20%;
+	left: 13%;
+	text-align: center;
+}
+.bg-image__button {
+	padding: 10px 30px;
+	border-radius: 25px;
+	background-color: rgba(100, 200, 100, 0.9);
+	color: #fff;
+	text-decoration: none;
 }
