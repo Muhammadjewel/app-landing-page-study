@@ -10,3 +10,61 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
+.app-ads {
+	background-image: url("https://picsum.photos/400");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.app-ads > .container {
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+	padding-left: 600px;
+}
+
+.app-ads__title {
+	width: 250px;
+	margin-bottom: 0;
+	font-size: 38px;
+}
+
+.ads-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.ads-list__item {
+	display: flex;
+	align-items: center;
+}
+
+.ad__img {
+	margin-right: 20px;
+	border-radius: 40px;
+}
+
+.ad__title {
+	font-size: 22px;	
+}
+
+.danger {
+	color: red;
+}
+
+.warning {
+	color: yellow;
+}
+
+.success {
+	color: green;
+}
